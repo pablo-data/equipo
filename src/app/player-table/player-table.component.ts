@@ -23,7 +23,7 @@ export class PlayerTableComponent implements OnInit {
     this.selectedPlayer = null;
     //sincronismo
     setTimeout(() => {
-      window.location.replace('#open');
+      window.location.replace('#open-modal');
     });
   }
 }
